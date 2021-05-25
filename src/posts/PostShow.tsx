@@ -10,7 +10,7 @@ const Title = ({ record }: TitleProps) => (
 
 const Actions = ({ basePath, data, resource }: ShowActionsProps) => (
   <TopToolbar>
-    <Link href={`/#${basePath}?filter={"userId":${data?.userId}}`}>
+    <Link href={`./#${basePath}?filter={"userId":${data?.userId}}`}>
       <>Other Posts From Same User</>
     </Link>
   </TopToolbar>
